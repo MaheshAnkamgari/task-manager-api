@@ -4,7 +4,7 @@
   "description": "task manager application with mongos db",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "node src/index.js",
     "startDev": "env-cmd -f ./config/.env.dev nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
