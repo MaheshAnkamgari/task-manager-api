@@ -22,8 +22,8 @@ test("Should signup a new user", async () => {
   // Assertions about the response
   expect(response.body).toMatchObject({
     user: {
-      name: "Andrew",
-      email: "andrew@example.com"
+      name: "Mahesh",
+      email: "mahesh@example.com"
     },
     token: user.tokens[0].token
   });
